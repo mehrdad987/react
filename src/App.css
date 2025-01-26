@@ -1,0 +1,104 @@
+/* App.css */
+
+/* Reset body and html */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Container for the entire app */
+.app-container {
+  position: relative; /* Ensure tabs are positioned relative to this container */
+  min-height: 100vh; /* Allow container to grow */
+  background-color: #f0f0f0;
+}
+
+/* Container for the tabs */
+.tab-container {
+  position: absolute; /* Position tabs absolutely */
+  top: 20px; /* Adjust top spacing as needed */
+  left: 50%; /* Center the tabs horizontally */
+  transform: translateX(-50%); /* Center the tabs horizontally */
+  display: flex;
+  gap: 20px;
+  z-index: 10; /* Ensure tabs are above the background */
+}
+
+/* Style for each tab */
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; /* Square size */
+  height: 100px; /* Square size */
+  background-color: #fff;
+  border: none;
+  border-radius: 10px; /* Slightly rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none; /* Remove underline from Link */
+  overflow: hidden; /* Ensure the image fits inside the square */
+}
+
+/* Hover effect for tabs */
+.tab:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+/* Style for the tab images */
+.tab img {
+  width: 100%; /* Fill the square */
+  height: 100%; /* Fill the square */
+  object-fit: cover; /* Ensure the image covers the square */
+}
+
+/* Base style for the page content */
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Unique background images for each page */
+
+.page1 {
+  background-image: url('https://i.postimg.cc/9fgFnwDH/Gemini-Generated-Image-xxzbu1xxzbu1xxzb.jpg');
+}
+
+.page2 {
+  background-image: url('https://i.postimg.cc/4yV0wHKB/image.jpg');
+}
+
+.page3 {
+  background-image: url('https://i.postimg.cc/4yV0wHKB/image.jpg');
+}
+
+.page4 {
+  background-image: url('https://i.postimg.cc/4yV0wHKB/image.jpg');
+}
+
+.page5 {
+  background-image: url('https://i.postimg.cc/4yV0wHKB/image.jpg');
+}
+
+.page6 {
+  background-image: url('https://i.postimg.cc/4yV0wHKB/image.jpg');
+}
+
+.page7 {
+  background-image: url('https://i.postimg.cc/4yV0wHKB/image.jpg');
+}
+
+.page8 {
+  background-image: url('https://i.postimg.cc/4yV0wHKB/image.jpg');
+}

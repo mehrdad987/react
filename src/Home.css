@@ -1,0 +1,26 @@
+/* Home.css */
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9; /* Light background for the home page */
+    color: #333; /* Dark text for contrast */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-page p {
+    font-size: 1.2rem;
+    max-width: 600px;
+  }
+  .Home {
+    background-image: url('https://i.postimg.cc/4yV0wHKB/image.jpg');
+  }
